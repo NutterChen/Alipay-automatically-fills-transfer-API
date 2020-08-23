@@ -31,9 +31,9 @@
             var kv = v.split("=")
             o[kv[0]] = kv[1]
         })
-        let userId = itsuserid;  //用户id
-        let amount = itsamount; //转账金额
-        let memo = "itsmemo";   //备注
+        let userId = itsuserid; 
+        let amount = itsamount;
+        let memo = "itsmemo";
         let hf=`<a id="btn1"
             data-href='alipays://platformapi/startapp?appId=20000123&amp;actionType=scan&amp;biz_data={&quot;s&quot;: &quot;money&quot;,&quot;u&quot;: &quot;${userId}&quot;,&quot;a&quot;: &quot;${amount}&quot;,&quot;m&quot;: &quot;${memo}&quot;}'
             class="btn btn-primary disabled" style="display: none">
