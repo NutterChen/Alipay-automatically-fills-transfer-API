@@ -14,7 +14,7 @@
     <meta http-equiv="Cache" content="no-cache">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>支付宝</title>
+    <title>alipay</title>
     <script src="./js/alipayjsapi.min.js"></script>
 </head>
 <body>
